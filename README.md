@@ -1,1 +1,6 @@
-# Chrome-OS-
+# Chrome-OS
+Description:
+Chrome OS is a lightweight, cloud-centric operating system developed by Google, based on Gentoo Linux and optimized for speed, security, and web-based applications. The PDF explores CloudReady (a Chromium OS variant by Neverware) as a virtualization-friendly alternative, highlighting its Linux foundation, minimal hardware requirements, and support for file systems like ext4, FAT32, and exFAT. The project’s motivation was to test Chrome OS in a virtual environment (VirtualBox/VMware) without altering the host system, while learning virtualization concepts and Chrome OS features like cloud storage and offline capabilities.
+
+# Installation Process:
+The guide provides a step-by-step approach: First, download the CloudReady OVA or ZIP image from Neverware’s website and extract it. For VirtualBox, create a new VM (selecting "Linux" as the type and "Other Linux 64-bit" as the version), allocate resources (4GB RAM, 20GB storage, 2 CPUs), and attach the extracted disk image. Enable EFI in the VM settings and configure the network adapter (NAT or Bridged). Boot the VM, follow the on-screen setup (language, keyboard, Wi-Fi), and sign in with a Google account to complete the process. The PDF also includes troubleshooting tips for common issues like "No bootable device" (enable EFI/virtualization in BIOS) or performance lags (increase RAM/CPU allocation).
